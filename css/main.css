@@ -1,0 +1,85 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-top: 10px;
+    font: arial, sans-serif;
+    font-size: 13px;
+    /* display: inline; displays items on one line */
+    /* background-color: lightgrey; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#gmailButton {
+    float: right;
+}
+
+#imagesButton {
+    float: right;
+}
+
+#gsearch {
+    width: 35%;
+    -webkit-appearance: none;
+    height: 25px;
+    border-radius: 10px;
+}
+
+#search {
+    padding-top: 25px;
+}
+
+button {
+    border-style: none;
+    text-decoration: none;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 10%;
+    text-align: center;
+    display: block;
+    height: 100%;
+}
+
+/* footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    font: arial, sans-serif;
+    font-size: 13px;
+    display: inline; displays items on one line
+    background-color: lightgrey;
+} */
+
+footer {
+    font-size: 18px;
+    background-color: lightgrey;
+    bottom: 0;
+    height: 35px;
+    position: fixed;
+    z-index: 104;
+    width: 100%;
+}
+
+#leftFooterButtons{
+    background-color: lightgrey;
+}
+
+#rightFooterButtons{
+    background-color: lightgrey;
+}
+
+#footerRight {
+    float: right;
+}
